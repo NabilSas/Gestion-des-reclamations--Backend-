@@ -33,11 +33,16 @@ Dashboard Manager :
    Contacter client :
 ![Sans titre](https://github.com/NabilSas/Gestion-des-reclamations--Backend-/assets/101131509/2aeaf754-4fcb-4f6f-b1fd-64104e622c0f)
 
-Interface Client : 
+   Interface Client : 
 ![Sans titre-1](https://github.com/NabilSas/Gestion-des-reclamations--Backend-/assets/101131509/d1f55771-f726-4545-b677-ff8fce264ec9)
 
-Interface Admin : 
-![Sans titre](https://github.com/NabilSas/Gestion-des-reclamations--Backend-/assets/101131509/773b9bcd-089c-4f88-813f-e216a22838b5)
+   Interface Admin : 
+![image](https://github.com/NabilSas/Gestion-des-reclamations--Backend-/assets/101131509/6b5f2d90-be60-49ab-8730-b699ac5d6b93)
+
+   Profil Admin :
+![image](https://github.com/NabilSas/Gestion-des-reclamations--Backend-/assets/101131509/ead82847-5698-4a84-880e-6c01c4a1f41f)
+
+
 
 ## Fonctionnalités
 - Soumission des réclamations par les clients
