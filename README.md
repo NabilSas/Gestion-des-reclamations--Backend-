@@ -13,17 +13,51 @@ Dans le rôle de supervision, l'administrateur gère les deux types d'utilisateu
 - Application Mobile: Flutter
 
 ## Captures d'écran
-(Insérez ici des captures d'écran pour illustrer l'apparence de l'application)
+Login et Register:
+![Sans titre](https://github.com/NabilSas/Gestion-des-reclamations--Backend-/assets/101131509/b6c80457-1223-461b-82a2-bd90e7a57a04)
+![Sans titre-1](https://github.com/NabilSas/Gestion-des-reclamations--Backend-/assets/101131509/5b0988a6-6205-44e3-961a-41a75c0a6a3f)
+
+Dashboard Manager :
+   Stats :
+![Sans titre-1](https://github.com/NabilSas/Gestion-des-reclamations--Backend-/assets/101131509/93634901-099f-41c3-b44b-8cb06029260b)
+
+   Liste reclamations :
+ 
+![Sans titre-1](https://github.com/NabilSas/Gestion-des-reclamations--Backend-/assets/101131509/118d8e92-f500-441d-b2e4-ba0bd8b07f19)
+
+![Sans titre](https://github.com/NabilSas/Gestion-des-reclamations--Backend-/assets/101131509/45453e0a-1ef6-4622-bcb8-ae516adc3526)
+
+   Affichage d'une reclamation chez manager: 
+![Sans titre](https://github.com/NabilSas/Gestion-des-reclamations--Backend-/assets/101131509/95f77444-8a86-4687-ba67-63292c3bbc04)
+
+   Contacter client :
+![Sans titre](https://github.com/NabilSas/Gestion-des-reclamations--Backend-/assets/101131509/2aeaf754-4fcb-4f6f-b1fd-64104e622c0f)
+
+Interface Client : 
+![Sans titre-1](https://github.com/NabilSas/Gestion-des-reclamations--Backend-/assets/101131509/d1f55771-f726-4545-b677-ff8fce264ec9)
+
+Interface Admin : 
+![Sans titre](https://github.com/NabilSas/Gestion-des-reclamations--Backend-/assets/101131509/773b9bcd-089c-4f88-813f-e216a22838b5)
 
 ## Fonctionnalités
 - Soumission des réclamations par les clients
-- Traitement des réclamations par les managers avec trois états possibles
-- Gestion des utilisateurs (CRUD) par l'administrateur
-- Communication entre l'administrateur et le manager via un système de messagerie intégré
+- Traitement des réclamations par les managers avec trois états possibles (Traitée, rejetée, en cours de traitement )
+- Gestion des utilisateurs (Manager,Client) par l'administrateur
+- Communication entre l'administrateur et le manager et le manager avec le client via un système de messagerie intégré (Email.js)
 
 ## Installation
-(Expliquez ici les étapes nécessaires à l'installation et à la configuration du projet)
+Assurez-vous d'avoir les logiciels suivants installés sur votre machine :
+    JDK (Java Development Kit)
+    Maven (pour la gestion des dépendances)
+    Un IDE Java (comme IntelliJ IDEA ou Eclipse)
+Commande :
+git clone [URL_du_dépôt]
 
+Config : 
+Assurez-vous que la configuration de votre base de données (dans le fichier application.properties ou application.yml) est correcte. Vous devrez créer la base de données manuellement.
+
+Final command :
+mvn spring-boot:run
 ## Remerciements
 
 Un grand merci à tous les collaborateurs qui ont contribué à ce projet :
@@ -31,13 +65,9 @@ Un grand merci à tous les collaborateurs qui ont contribué à ce projet :
 - **Abdelmonaim Erraji**: Pour sa contribution exceptionnelle dans le développement et la conception.
 - **Anas Ouatil**: Pour son engagement et son travail acharné tout au long du processus.
 - **Ahmed Sayout**: Pour ses précieuses suggestions et son dévouement à l'amélioration continue.
+- **Aya Kharbouch et Omaima Ait Zaouit**: Pour leur participation active et leur soutien précieux.
 
-Et bien sûr, un grand merci à vous-même pour votre implication et votre leadership dans ce projet. Votre collaboration a été cruciale pour atteindre nos objectifs communs.
-
-Nous apprécions chacune de vos contributions et sommes ravis de collaborer ensemble.
-
+J'apprécie chacune de vos contributions et suis ravi de collaborer ensemble.
 
 
-## Licence
-Ce projet est sous licence [MIT](LICENSE).
 
